@@ -1,0 +1,33 @@
+{% load static %}
+<html>
+	<head>
+
+	</head>
+	<body>
+           	<nav class="navbar navbar-inverse" role="navigation">
+
+  			<div>
+
+ 		 		<ul id="navbar">
+
+				<li><a href="mywebsite.html">Home</a></li>
+
+
+				<li><a href="contact_me.html">Contact Me</a></li>
+
+				</ul>
+			</div>
+
+		</nav>
+		<img src="{% static 'polls/mypic.jpg'%}" />
+		<h1> Hi, im talia</h1>
+		<p> im 16.6 years old from israel, beit shemesh.I was born in uruguay, south america.</br>
+		 I have a twin sister and a big brother.</br> 
+		 In school i take chemistry and computer science.</p>
+			
+
+
+
+	</body>
+
+</html>
